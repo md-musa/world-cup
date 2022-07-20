@@ -119,6 +119,13 @@ section main {
   font-size: 2rem;
 }
 
+.main__left button a {
+  text-decoration: none;
+  color: black;
+}
+.main__left button a:hover {
+  text-decoration: underline;
+}
 .main__right {
   display: grid;
   grid-template-columns: 1fr;
